@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barber shop website design</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=New+Tegomin&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="banner">
+            <img src="Image/logo.png" class="logo">
+            <div class="banner-text">
+                <h1>Hair Studio</h1>
+                <p>Style Your hair Is Style Your Life</p>
+                <div class="banner-btn">
+                    <a href="#"><span></span>Find Out</a>
+                    <a href="#"><span></span>Read More</a>
+                </div>
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">TESTTIMONIALS</a></li>
+                    <li><a href="#">MEAT US</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="Image/menu.png" id="menu">
+        </div>
+        <script>
+            var manuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            manuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right="0";
+                }else{
+                    sideNav.style.right = "-250px";
+                }
+            }
+;        </script>
+    </body>
+</html>
