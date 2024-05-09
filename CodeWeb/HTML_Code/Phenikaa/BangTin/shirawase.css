@@ -1,0 +1,17 @@
+.parent{
+    width: 100%;
+    height: 100%;
+}
+.child{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.titleText{
+    font-size: 35px;
+}
+.noidung{
+    font-size: 20px;
+}
