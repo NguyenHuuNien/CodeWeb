@@ -16,7 +16,15 @@
 
 }
 .center{
-    margin-left: 40px;
+    margin:0px 40px;
+}
+.tinTucRight{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    display: flex;
+    flex-direction: column;
 }
 a h3{
     font-size: 18px;
@@ -24,6 +32,7 @@ a h3{
 }
 a{
     text-decoration: none;
+    margin: 0px;
 }
 h3{
     margin: 0px;
