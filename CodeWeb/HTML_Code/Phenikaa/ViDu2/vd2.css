@@ -15,6 +15,10 @@
     color: darkslategray;
 
 }
+.texthihi{
+    display: flex;
+    flex-direction: column;
+}
 .center{
     margin:0px 40px;
 }
@@ -26,8 +30,9 @@
     display: flex;
     flex-direction: column;
 }
+.imge{
+}
 a h3{
-    font-size: 18px;
     color: black;
 }
 a{
@@ -35,6 +40,7 @@ a{
     margin: 0px;
 }
 h3{
+    font-size: 18px;
     margin: 0px;
 }
 h5{
