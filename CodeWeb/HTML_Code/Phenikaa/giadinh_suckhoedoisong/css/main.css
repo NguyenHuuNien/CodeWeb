@@ -21,14 +21,6 @@
 a{
     text-decoration: none;
 }
-.iconRed{
-    width: 1px;
-    height: 7px;
-    border: 8px solid red;
-    border-radius: 10px;
-    background-color: red;
-    margin-right: 8px;
-}
 .txtXaHoi{
     font-size: 30px;
     color: orange;
@@ -87,4 +79,16 @@ a{
     font-weight: 600;
     font-style: normal;
     color: #333;
+}
+.right{
+    width: max-content;
+}
+.right .duongKe{
+    width: 300px;
+}
+.iconRed{
+    background: url(https://static.mediacdn.vn/giadinhnet/image/icon-title-section.png);
+    margin-right: 8px;
+    width: 11px;
+    height: 24px;
 }
