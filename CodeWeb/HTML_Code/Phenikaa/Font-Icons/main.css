@@ -1,0 +1,20 @@
+@font-face {
+    font-family: fontchu01;
+    src: url(architep.ttf);
+}
+@font-face {
+    font-family: conthuy;
+    src: url(UVNConThuy.TTF);
+}
+h1{
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal; 
+}
+p{
+    font-family: conthuy;
+}
+i{
+    size: 20px;
+    color: red;
+}
