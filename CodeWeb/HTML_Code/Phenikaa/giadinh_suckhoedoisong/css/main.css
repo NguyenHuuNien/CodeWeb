@@ -1,0 +1,30 @@
+.nav{
+    width: 1000px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+}
+.iconRed{
+    width: 1px;
+    height: 7px;
+    border: 8px solid red;
+    border-radius: 10px;
+    background-color: red;
+    margin-right: 8px;
+}
+.txtXaHoi{
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.txtKhac{
+    margin: 0px 10px;
+    color: darkgrey;
+    font-weight: bold;
+    font-size: 22px;
+}
