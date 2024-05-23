@@ -27,6 +27,12 @@ a{
     font-weight: bold;
     margin-right: 10px;
 }
+.txtXemNhieu{
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+    margin-right: 10px;
+}
 .txtKhac{
     margin: 0px 10px;
     color: darkgrey;
@@ -91,4 +97,36 @@ a{
     margin-right: 8px;
     width: 11px;
     height: 24px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hrRight{
+    color: darkgrey;
+    margin: 10px 0px;
+    width: 100%;
+}
+.namTin{
+    display: flex;
+    width: 300px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text .txtMuc{
+    font-size: 12;
+}
+.anh{
+    margin-right: 10px;
+}
+.tieuDe{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    color: black;
 }

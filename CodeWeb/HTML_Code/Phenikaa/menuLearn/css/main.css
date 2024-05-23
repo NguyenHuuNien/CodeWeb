@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: blue;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    width: 90%;
+    justify-content: space-between;
+}
+.menu li{
+    padding: 15px 10px;
+    border-right: 1px solid white;
+    position: relative;
+
+}
+.menu li:last-child{
+    border: none;
+}
+.logo{
+    width: 10%;
+    padding-right:20px;
+    font-size: 24px;
+}
+.menu li .subMenu{
+    position: absolute;
+    background-color: gray;
+    top: 54px;
+    right: 0px;
+    width: 150px;
+    display: none;
+}
+.menu li:hover .subMenu{
+    display: block;
+}
+
+.subMenu li{
+    border-bottom: 1px solid chocolate;
+}
+.subMenu li:last-child{
+    border-bottom: none;
+}

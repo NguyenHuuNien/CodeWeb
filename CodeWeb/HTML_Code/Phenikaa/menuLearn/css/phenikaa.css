@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: relative;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 30%;
+    align-content: center;
+    width: 190px;
+    height: 79px;
+    padding-right: 100px;
+}
+.logo a{
+    margin: 0px 16px 0px 0px;
+    padding: 5px 0px;
+}
+.logo a img{
+    width: 190px;
+    height: 48.13px;
+}
+.menu{
+    width: 70%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.menu ul li{
+    display: flex;
+    width: max-content;
+    align-content: center;
+    margin: 0px 10px;
+}
+.menu ul li .content a{
+    padding: 10px 0px;
+    width: max-content;
+    font-size: 15px;
+    font-weight: 400;
+    color: #2f2424;
+}
+.content{
+    padding: 33px 0px;
+    display: flex;
+    align-content: center;
+}
+.menu ul li:hover .content a{
+    color: orangered;
+    border-top: 2px solid orangered;
+}
