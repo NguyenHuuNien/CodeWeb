@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: max-content;
+    background-color: white;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+#logoHome {
+    color: white;
+    width: 50px;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+#logoHome img {
+    width: 40px;
+    height: 40px;
+    color: white;
+    margin: 0;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    background-color: darkslateblue;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 7%;
+}
+
+.nav ul li {
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.center {
+    width: 100vw;
+    height: max-content;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.centerTop {
+    width: 70%;
+    display: flex;
+}
+
+.centerTopLeft {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14%;
+}
+
+.mainTopLeft {
+    background-color: rgb(209, 231, 245);
+    display: flex;
+    margin: 15px 0;
+    height: max-content;
+
+}
+
+.mainTopLeft img {
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.mainTopLeft h4 {
+    padding: 12px 10px;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgb(107, 106, 106);
+    line-height: 24px;
+}
+
+.baTinPhu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tin {
+    width: 32%;
+}
+
+.tin img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.txt a {
+    font-weight: bold;
+    line-height: 24px;
+    color: black;
+}
+
+.centerTopRight {
+    margin-left: 24px;
+    width: 100%;
+}
+
+.tren {
+    background-color: rgb(213, 214, 216);
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.inputTxt {
+    width: 250px;
+    height: 20px;
+    padding: 2px 5px;
+    display: flex;
+    border: 0.5px solid white;
+    background-color: white;
+    position: relative;
+    align-items: center;
+    margin: 5px 15px;
+}
+
+.inputTxt input {
+    border: none;
+    outline: none;
+}
+
+.inputTxt button {
+    position: absolute;
+    right: 5px;
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    height: 70%;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.inputTxt button img {
+    color: white;
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+}
+
+
+footer div {
+    width: 100vw;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: darkslateblue;
+}
