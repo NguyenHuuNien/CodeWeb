@@ -1,0 +1,95 @@
+.khoitin{
+    width: 1300px !important;
+}
+
+.phapluat{
+    display: flex;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 35px;
+    color: rgb(57, 57, 255);
+    padding: 20PX;
+    line-height: 10px;
+    border-left: 9px solid blue;
+    height: 1px !important;
+}
+
+.pl-img{
+    height: 516px;
+    width: 774px;
+    position: relative;
+}
+
+.boxtext{
+    color: white;
+    background-color: rgba(0,0,0, 0.3);
+    position: absolute;
+    bottom: 0px;
+    font-size: 40px;
+    word-break: keep-all;
+    width: 774px !important;
+    z-index: 1;
+}
+
+.img img{
+    /* width: ; */
+}
+
+
+/*  */
+.pl-list{
+    padding: 0px;
+    margin: 0px 0px 0px 15px;
+    width: 774px !important;
+    word-break: keep-all;
+    list-style: none;
+}
+
+.pl-list-item{
+    padding: 20px auto;
+    margin: 20px auto;
+    border-bottom: 1px dashed#CCC;
+}
+
+.pl-list-item-link{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    height: 110px;
+    display: flex;
+    text-decoration: none;
+}
+
+.pl-list-item-link img{
+    margin: auto;
+}
+
+.img-tin img{
+    width: 120px;
+    border-radius: 5px;
+}
+
+/*  */
+.giaitri{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.giaitri-list{
+    width: calc(90% / 4);
+}
+
+.gt-khoi-img img{
+    width: 100%;
+}
+
+.gt-list-link{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600; 
+}
