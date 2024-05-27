@@ -73,7 +73,7 @@ ul {
 .centerTopLeft {
     display: flex;
     flex-direction: column;
-    padding-left: 14%;
+    margin-left: 14%;
 }
 
 .mainTopLeft {
@@ -129,9 +129,13 @@ a {
 
 .tren {
     background-color: rgb(213, 214, 216);
-    width: 100%;
-    height: 100px;
-    padding-top: 10px;
+    width: 70%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border-radius: 2px;
 }
 
 .inputTxt {
@@ -141,9 +145,10 @@ a {
     display: flex;
     border: 0.5px solid white;
     background-color: white;
-    position: relative;
+    position: absolute;
     align-items: center;
     margin: 5px 15px;
+    top: 10px;
 }
 
 .inputTxt input {
@@ -159,9 +164,9 @@ a {
     display: flex;
     align-items: center;
     padding: 0 5px;
-    height: 70%;
+    height: 75%;
     width: 90px;
-    border-radius: 5px;
+    border-radius: 2px;
     font-size: 14px;
 }
 
@@ -172,6 +177,15 @@ a {
     margin-right: 2px;
 }
 
+.rdo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.rdo label {
+    margin-right: 8%;
+}
 
 footer div {
     width: 100vw;
