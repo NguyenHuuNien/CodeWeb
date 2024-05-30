@@ -30,6 +30,12 @@ header {
     margin: 0;
 }
 
+.shadow {
+    width: 100vw;
+    height: 10px;
+    background-color: rgb(214, 216, 218);
+}
+
 .nav {
     width: 100%;
     height: 100%;
@@ -58,7 +64,6 @@ ul {
 
 .center {
     width: 100vw;
-    height: max-content;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
@@ -66,14 +71,18 @@ ul {
 }
 
 .centerTop {
-    width: 70%;
+    width: 100%;
     display: flex;
+    position: relative;
+    height: 680px;
 }
 
 .centerTopLeft {
+    position: absolute;
+    left: 8%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    margin-left: 14%;
 }
 
 .mainTopLeft {
@@ -120,11 +129,15 @@ a {
     font-weight: bold;
     line-height: 24px;
     color: black;
+    font-size: 18px;
 }
 
 .centerTopRight {
-    margin-left: 24px;
-    width: 100%;
+    position: absolute;
+    right: 10%;
+    height: 538px;
+    margin-left: 26px;
+    width: 30%;
 }
 
 .tren {
@@ -139,7 +152,7 @@ a {
 }
 
 .inputTxt {
-    width: 250px;
+    width: 300px;
     height: 20px;
     padding: 2px 5px;
     display: flex;
@@ -149,11 +162,13 @@ a {
     align-items: center;
     margin: 5px 15px;
     top: 10px;
+    left: 20px;
 }
 
 .inputTxt input {
     border: none;
     outline: none;
+    width: 200px;
 }
 
 .inputTxt button {
@@ -163,7 +178,6 @@ a {
     color: white;
     display: flex;
     align-items: center;
-    padding: 0 5px;
     height: 75%;
     width: 90px;
     border-radius: 2px;
@@ -187,9 +201,233 @@ a {
     margin-right: 8%;
 }
 
+#radioInp {
+    margin-right: 5px;
+}
+
+.duoi {
+    width: 70%;
+    height: 470px;
+    margin-top: 20px;
+    background-color: rgb(211, 250, 250);
+    border: 1px solid rgb(14, 241, 241);
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding: 8px 0 0 10px;
+}
+
+.lichSuKien {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.table table tr th:first-child {
+    width: 15%;
+    height: 35px;
+    background-color: rgb(157, 221, 221);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.table table tr th:last-child {
+    background-color: rgb(128, 194, 248);
+    border-radius: 5px;
+}
+
+.table table tr td:first-child {
+    text-align: center;
+    color: cadetblue;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100px;
+}
+
+span {
+    width: 100px;
+    padding: 2px 20px;
+    border-right: 2px solid cadetblue;
+}
+
+.table table tr td:last-child {
+    padding-left: 10px;
+    font-size: 16px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+table tr {
+    height: 50px;
+}
+
+table tr td {
+    border-bottom: 2px solid rgb(168, 212, 241);
+}
+
+.cc {
+    border: none;
+}
+
+.quangCaoMayGiat {
+    margin-left: 8%;
+    width: 73%;
+    height: 370px;
+    border: 1px solid #00ffff;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.tieuDeMayGiat {
+    padding: 15px 15px;
+    display: flex;
+    border-bottom: 1px solid aqua;
+}
+
+.txtGiaDinh {
+    font-size: 35px;
+    font-weight: bold;
+    color: green;
+    padding-right: 7px;
+}
+
+.txtLaNhat {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(11, 243, 11);
+}
+
+.baMayGiat {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.mayGiat {
+    width: 150px;
+    height: 230px;
+    display: flex;
+    position: relative;
+    margin: 25px 260px 0 50px;
+}
+
+.mayGiat img {
+    width: 100%;
+    height: 100%;
+}
+
+.infoMayGiat {
+    margin-left: 25px;
+}
+
+.infoMayGiat button {
+    margin-top: 5%;
+    width: 160px;
+    height: 33px;
+    border-radius: 15px;
+    border: none;
+    background-color: orange;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.tenSanPham {
+    padding-top: 10px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.gia {
+    margin-top: 15%;
+    font-weight: bold;
+    color: red;
+    font-size: 24px;
+}
+
+.giaGoc {
+    margin-top: 6%;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+}
+
+.sale {
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    top: -3%;
+    left: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    font-weight: 1000;
+    z-index: 1;
+}
+
+.baTinLon {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    margin-bottom: 100px;
+    padding-left: 8%;
+}
+
+.tinNho {
+    margin-right: 6.5%;
+    width: 20%;
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 7px;
+}
+
+.tieuDeTinNho {
+    margin: 18px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tinNho a img {
+    width: 100%;
+}
+
+.dauMuc {
+    width: 90%;
+    height: max-content;
+    padding: 7px;
+}
+
+.tinChinh {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.tinPhu {
+    padding: 7px 0;
+    border-top: 1px dotted rgb(104, 104, 104);
+}
+
+.dauMuc a {
+    color: black;
+}
+
 footer div {
+    position: absolute;
+    bottom: 1px;
     width: 100vw;
     height: 50px;
     margin: 20px 0px;
     background-color: darkslateblue;
+}
+
+body {
+    height: max-content;
+    position: relative;
 }
