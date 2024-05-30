@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin-top: 100px;
+    height: 200px;
+    margin-bottom: 5%;
+}
+
+.bgHeader {
+    background-image: linear-gradient(#FFF, #c5c5c5);
+    position: relative;
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    bottom: 15%;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 150, 100);
+    font-weight: bold;
+    left: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    width: 100vw;
+    height: 40%;
+    background-color: rgb(0, 150, 100);
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+.nav ul li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: max-content;
+    font-size: 24px;
+    padding: 0px 20px;
+    border-right: 2px solid #415a42;
+}
+
+.nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.nav ul li:first-child {
+    margin-left: 8%;
+}
+
+.bottomNav {
+    width: 65%;
+    height: 7px;
+    background-color: #c5c5c5;
+}
+
+.center {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+}
+
+.left {
+    margin-left: 7%;
+    width: 65%;
+    height: max-content;
+}
+
+.khoiTinTren {
+    width: 100%;
+    height: max-content;
+    display: flex;
+}
+
+.benTrai {
+    width: 60%;
+}
+
+.benTrai a {
+    width: 100%;
+    height: max-content;
+}
+
+.benTrai a img {
+    width: 100%;
+}
+
+.benTrai p {
+    margin-top: 2%;
+}
+
+.benTrai p a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.benPhai {
+    width: 33%;
+    height: max-content;
+    right: 0;
+    margin-left: 2%;
+}
+
+.tinIP {
+    width: 100%;
+    height: max-content;
+}
+
+.tinIP a {
+    width: 80%;
+    height: max-content;
+}
+
+.tinIP a img {
+    width: 80%;
+}
+
+.tinIP p {
+    width: 80%;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    border-bottom: 1px dotted #c5c5c5;
+}
+
+.tinIP p a {
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 35px;
+    color: black;
+}
+
+.tinIP15 {
+    margin-top: 8%;
+    width: 80%;
+    display: flex;
+}
+
+.tinIP15 a {
+    width: 40%;
+    height: max-content;
+}
+
+.tinIP15 a img {
+    width: 100%;
+}
+
+.tinIP15 p {
+    margin-left: 3%;
+    width: 80%;
+}
+
+.tinIP15 p a {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.tinMenu1 {
+    width: 100%;
+    height: max-content;
+}
+
+.menu1 {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.menu1 ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu1 ul li a {
+    font-size: 30px;
+    color: rgb(161, 159, 159);
+}
+
+.menu1 ul li {
+    padding-bottom: 5px;
+    margin-right: 2%;
+}
+
+.menu1 ul li:first-child a {
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.menu1 ul li:first-child {
+    border-bottom: 1px solid rgb(139, 1, 1);
+}
+
+.menu1 ul li:last-child {
+    background-color: #e7e7e7;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.tinTucMenu1 {
+    width: 100%;
+    height: max-content;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.tinTren {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    margin-top: 2%;
+}
+
+.tinTren img {
+    width: 25%;
+}
+
+.tinTren1 {
+    width: 25%;
+    margin-left: 3%;
+    padding-right: 3%;
+    border-right: 1px solid #c5c5c5;
+}
+
+.tinTren2 {
+    margin-left: 4%;
+    width: 25%;
+}
+
+.tieuDe {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.mota {
+    margin-top: 2%;
+    font-size: 30px;
+    color: gray;
+}
+
+.tinTucMenu2 {
+    margin-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 3px solid #c5c5c5;
+}
+
+.cercle {
+    margin: 2%;
+    width: 10px;
+    height: 10px;
+    background-color: #c5c5c5;
+    border-radius: 50%;
+}
+
+.tinTucMenu2 ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.tinTucMenu2 ul li {
+    margin-right: 10%;
+    display: flex;
+    width: 30%;
+}
+
+.tinTucMenu2 ul li a {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.tinMenu2 .menu1 ul li:last-child {
+    background-color: white;
+}
